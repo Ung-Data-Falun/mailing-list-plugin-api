@@ -1,7 +1,8 @@
 [package]
-name = "mailing-list-plugin-api"
+name = "mlpa"
 version = "0.1.0"
 edition = "2021"
+description = "Plugin API for mailing-list"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
