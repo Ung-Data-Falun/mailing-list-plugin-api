@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "mailing-list-plugin-api"
+name = "mlpa"
 version = "0.1.0"

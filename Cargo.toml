@@ -3,6 +3,9 @@ name = "mlpa"
 version = "0.1.0"
 edition = "2021"
 description = "Plugin API for mailing-list"
+repository = "https://github.com/Ung-Data-Falun/mailing-list-plugin-api"
+license = "GPL-3.0"
+keywords = ["mailing-list"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
