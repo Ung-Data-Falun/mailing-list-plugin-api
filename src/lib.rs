@@ -1,3 +1,3 @@
 pub struct Plugin {
-    pub message_handler: Option<fn(String) -> String>,
+    pub message_handler: Option<fn(String)>,
 }
