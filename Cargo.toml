@@ -1,9 +1,10 @@
 [package]
 name = "mlpa"
-version = "0.3.1"
+version = "0.3.2"
 edition = "2021"
 description = "Plugin API for mailing-list"
 repository = "https://github.com/Ung-Data-Falun/mailing-list-plugin-api"
+documentation = "https://docs.rs/mlpa"
 license = "GPL-3.0"
 keywords = ["mailing-list"]
 
