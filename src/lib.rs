@@ -8,7 +8,7 @@ macro_rules! pluginFn {
     };
 }
 
-/// An optional type
+/// A C-Compatible `Option` type
 #[derive(Debug, Clone, Copy)]
 #[repr(C)]
 pub enum Optional<T> {
@@ -20,6 +20,7 @@ pub enum Optional<T> {
 #[repr(C)]
 /// A Plugin type
 pub struct Plugin {
+    pub on_start: pluginFn!((), ),
     pub message_handler: pluginFn!((), *const c_char),
 }
 
